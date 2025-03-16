@@ -9,7 +9,8 @@ sys.path.append(project_root)
 # Now import from the torrent_flow package
 import  torrent_flow.app.file_parser as tfp
 
+# path = "C:\\Users\\DELL-LAPTOP\\Downloads\\ubuntu.torrent"
+path = "D:\\3. PROJECTS\\Bit torrent clone\\torrent-flow\\assets\\planet-250310.osm.pbf.torrent"
+
 if __name__ == "__main__":
-    tfp = tfp.TorrentFileParser('C:/Users/DELL/Downloads/abc.txt')
-    print(tfp.get_file_name())
-    print(tfp.get_file_path())
+    tfp = tfp.TorrentFileParser(path)
