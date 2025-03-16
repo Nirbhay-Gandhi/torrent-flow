@@ -1,0 +1,7 @@
+1. json file handling in python 
+	json <-> dict
+	saving json
+	\- https://www.geeksforgeeks.org/json-dumps-in-python/
+	\- https://www.geeksforgeeks.org/convert-json-to-dictionary-in-python/
+
+2. 

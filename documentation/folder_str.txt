@@ -1,0 +1,9 @@
+TORRENTFLOW/                     # Root folder
+│
+├── torrent_flow/                 # Main package
+│   ├── __init__.py
+│   ├── app.py                  # Main entry point (minimal logic)
+│   ├── exceptions.py           # Custom exceptions
+│   ├── src/                    # business-related logic
+│   │   ├── __init__.py
+│   │   ├── file_parser.py     
